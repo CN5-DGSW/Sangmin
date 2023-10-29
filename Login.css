@@ -2,17 +2,22 @@
     color: #FFC75A;
 }
 .Input{
-    font-weight: 500;
+    font-weight: 350;
     width: 400px;
     font-size: 20px;
     padding: 16px 22px;
     border: 1px solid #999;
     border-radius: 10px;
 }
+
 .InputWrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: default;
     margin-bottom: 45px;
-    
 }
+
 .LoginBtn{
     width: 270px;
     height: 65px;
@@ -43,8 +48,8 @@
 .Under{
     font-size: 20px;
     font-weight: 500;
-    cursor: pointer;
 }
 .Under:hover{
     text-decoration: underline;
+    cursor: pointer;
 }
