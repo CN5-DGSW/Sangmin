@@ -13,7 +13,7 @@ const Login = () => {
 
   const register = async () => {
     try {
-      const response = await axios.post('서버 주소', {
+      const response = await axios.post('보내 줄 서버', {
         '이름': nameValue,
         '비번': pwValue,
         '학반번호': classValue,

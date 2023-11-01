@@ -14,7 +14,7 @@ const Login = () => {
   const fetchUserInfo = async () => {
     try {
       const response = await axios.get(`로그인정보 확인하는 서버`);
-      console.log(response.data); // 정보 출력하기
+      console.log(response.data); // 정보 출력
     } catch (error) {
       console.error(error);
     }
@@ -27,7 +27,7 @@ const Login = () => {
         password: pwValue
       });
       if (response.status === 200) {
-        fetchUserInfo(); // 로그인 되면 사용자 정보 받기
+        fetchUserInfo(); // 로그인 될 때 사용자 정보
         Navigate("/Teacher");
       } else {
         alert('로그인 정보가 일치하지 않습니다.')
