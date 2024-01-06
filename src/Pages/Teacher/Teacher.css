@@ -1,0 +1,58 @@
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.profileUser{
+    width: 70px;
+    height: 70px;
+}
+.image{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 10px;
+    width: 98%;
+}
+.image2{
+    justify-content: space-between;
+    display: flex;
+    width: 98%;
+}
+.poingLogo {
+    width: 180px;
+    margin-left: 30px;
+    justify-content: space-between;
+}
+.Teacher {
+    font-size: 28px;
+    font-weight: 700;
+    margin-left: 50px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.Head {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.box {
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 163px;
+    height: 59px;
+    font-size: 17px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+.ClassTeacher{
+    font-size: 28px;
+    font-weight: 700;
+    margin-left: 50px;
+    margin-top: 30px;
+    display: flex;
+}
